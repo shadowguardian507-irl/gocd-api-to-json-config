@@ -1,0 +1,22 @@
+{
+  "name": "gocd-api-to-json-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LateRoomsGroup/gocd-api-to-json-config.git"
+  },
+  "author": "Steve Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LateRoomsGroup/gocd-api-to-json-config/issues"
+  },
+  "homepage": "https://github.com/LateRoomsGroup/gocd-api-to-json-config#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
