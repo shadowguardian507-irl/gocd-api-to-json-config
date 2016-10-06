@@ -19,14 +19,17 @@ The go user credentials will require API access to function correctly.
 
 Navigate to where you want to save the config files.
 
-`goconfig -h mygoserver.com:8153 -p Existing.Pipeline`
+To Export a specific Pipeline:
+
+`goconfig pipeline Existing.Pipeline -h mygoserver.com:8153 -g MyTargetGroup`
+
+To Export all pipelines in a specified Group:
+
+`goconfig group PipelineGroup -h mygoserver.com:8153`
 
 ## Options
 
-    -h, --help                 output usage information
-    -V, --version              output the version number
-    -p, --pipeline <pipeline>  GO Pipeline to retrieve from the API
-    -h, --host <host>          GO Server host
-    -o, --output [output]      Output filename
-
-
+    -h, --help                output usage information
+    -V, --version             output the version number
+    -h, --host <host>         GO Server host
+    -g, --tagetgroup <group>  GO Pipeline Group to set pipelines for (required for pipeline mode)
