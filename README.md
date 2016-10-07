@@ -10,7 +10,7 @@ Create .go-credentials configuration file in either your user's home directory, 
 
 `{
   "username": "my-username",
-  "password: "my-password"
+  "password": "my-password"
 }`
 
 The go user credentials will require API access to function correctly.
